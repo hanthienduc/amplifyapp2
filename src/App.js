@@ -1,6 +1,6 @@
 import './App.css';
 import logo from './logo.svg'
-
+import "@aws-amplify/ui-react/styles.css";
 import { withAuthenticator, View, Button, Image, Card, Heading } from '@aws-amplify/ui-react'
 function App({ signOut }) {
   return (
